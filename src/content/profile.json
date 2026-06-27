@@ -1,0 +1,44 @@
+{
+  "name": "您的姓名",
+  "title": "单位 / 职位",
+  "avatar": "",
+  "email": "your-email@example.com",
+  "contact": "",
+  "location": "",
+  "bio": [
+    "请在这里填写个人简介。可以增加多个段落，每个段落用英文双引号包围，并用逗号分隔。"
+  ],
+  "education": [
+    {
+      "period": "20XX–20XX",
+      "school": "某某大学",
+      "degree": "某某专业 · 博士"
+    }
+  ],
+  "interests": [
+    {
+      "name": "研究方向一",
+      "description": "简要介绍该研究方向。"
+    },
+    {
+      "name": "研究方向二",
+      "description": "简要介绍该研究方向。"
+    }
+  ],
+  "projects": [
+    {
+      "year": "2026",
+      "title": "科研项目名称",
+      "description": "项目简介、项目来源或承担角色。"
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "论文或著作标题",
+      "authors": "作者一, 作者二",
+      "venue": "期刊或会议名称",
+      "link": ""
+    }
+  ]
+}
