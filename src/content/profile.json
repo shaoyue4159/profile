@@ -6,7 +6,9 @@
   "contact": "",
   "location": "辽宁师范大学黄河路校区南院 理化楼A503",
   "bio": [
-    "1996年生，辽宁阜新人。主要研究方向为宇宙黎明与再电离时期的21厘米信号，已在Nature Astronomy、Physical Review D等国际主流SCI期刊发布论文10余篇。曾获东北大学2023年博士研究生国家奖学金。研究成果被Nature Astronomy选为2023年9月封面文章，并在东北大学百年科技展中展出。"
+    "
+    1996年生，辽宁阜新人。主要研究方向为宇宙黎明与再电离时期的21厘米信号，已在Nature Astronomy、Physical Review D等国际主流SCI期刊发表论文10余篇。曾获东北大学2023年博士研究生国家奖学金。研究成果被Nature Astronomy选为2023年9月封面文章，并在东北大学百年科技展中展出。参与FAST核心阵科学白皮书、国际SKA科学白皮书撰写。
+    "
   ],
   "education": [
     {
@@ -67,6 +69,81 @@
       "authors": "Yue Shao, Tian-Yang Sun, Meng-Lin Zhao, Xin Zhang",
       "venue": "Physical Review D 112, 063513 (2025)",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
+    },
+    {
+      "year": "2023",
+      "title": "A path to precision cosmology: synergy between four promising late-universe cosmological probes",
+      "authors": "Peng-Ju Wu, Yue Shao, Shang-Jie Jin, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2023(06), 052 (2023)",
+      "link": "https://doi.org/10.1088/1475-7516/2023/06/052"
+    },
+    {
+      "year": "2025",
+      "title": "Nanohertz gravitational waves from a quasar-based supermassive black hole binary population model as dark sirens",
+      "authors": "Si-Ren Xiao, Yue Shao, Ling-Feng Wang, Ji-Yu Song, Lu Feng, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2025(04), 060 (2025)",
+      "link": "https://doi.org/10.1088/1475-7516/2025/04/060"
+    },
+    {
+      "year": "2025",
+      "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observationss",
+      "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
+      "venue": "Communications Physics 8, 220 (2025)",
+      "link": "https://doi.org/10.1038/s42005-025-02139-5"
+    },
+    {
+      "year": "2025",
+      "title": "Ultra-low-frequency gravitational waves from individual supermassive black hole binaries as standard sirens",
+      "authors": "Ling-Feng Wang, Yue Shao, Si-Ren Xiao, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2025(05), 095 (2025)",
+      "link": "https://doi.org/10.1088/1475-7516/2025/05/095"
+    },
+    {
+      "year": "2026",
+      "title": "Prospects for probing dark matter particles and primordial black holes with the SKA using the 21 cm power spectrum at cosmic dawn",
+      "authors": "Meng-Lin Zhao, Yue Shao, Sai Wang, Xin Zhang",
+      "venue": "Chinese Physics C 50, 025101 (2026)",
+      "link": "https://doi.org/10.1088/1674-1137/ae1375"
+    },
+    {
+      "year": "2026",
+      "title": "21 cm forest one-dimensional power spectrum as an indirect probe of dark matter particles and primordial black holes",
+      "authors": "Meng-Lin Zhao, Yue Shao, Sai Wang, Xin Zhang",
+      "venue": "Physical Review D 113, 043531 (2026)",
+      "link": "https://doi.org/10.1103/449t-nytf"
+    },
+    {
+      "year": "2023",
+      "title": "Joint constraints on cosmological parameters using future multi-band gravitational wave standard siren observations",
+      "authors": "Shang-Jie Jin, Shuang-Shuang Xing, Yue Shao, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Chinese Physics C 47, 065104 (2023)",
+      "link": "https://doi.org/10.1088/1674-1137/acc8be"
+    },
+    {
+      "year": "2025",
+      "title": "Analyzing the 21-cm forest with wavelet scattering transform: Insight into non-Gaussian features of the 21-cm forest",
+      "authors": "Hayato Shimabukuro, Yidong Xu, Yue Shao",
+      "venue": "Physical Review D 112, 063557 (2025)",
+      "link": "https://doi.org/10.1103/nxr4-14gb"
+    },
+    {
+      "year": "2025",
+      "title": "Square Kilometre Array Science Data Challenge 3a: foreground removal for an EoR experiment",
+      "authors": "A. Bonaldi et al.",
+      "venue": "Monthly Notices of the Royal Astronomical Society 543(2), 1092–1119 (2025)",
+      "link": "https://doi.org/10.1093/mnras/staf1466"
+    },
+    {
+      "year": "2025",
+      "title": "Two-Dimensional Pulsar Distance Inference from Nanohertz Gravitational Waves",
+      "authors": "Si-Ren Xiao, Ji-Yu Song, Yue Shao, Ling-Feng Wang, Jing-Fei Zhang, Xin Zhang",
+      "link": "https://arxiv.org/abs/2512.10729"
+    },
+    {
+      "year": "2025",
+      "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
+      "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
+      "link": "https://arxiv.org/abs/2606.24665"
     }
   ]
 }
