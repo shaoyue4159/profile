@@ -152,7 +152,19 @@ export default function Home() {
                         </a>
                       )}
                     </div>
-                    {publication.authors && <p className="mt-2 text-sm text-[#66717b]">{publication.authors}</p>}
+                    {publication.authors && (
+  <p className="mt-2 text-sm text-[#66717b]">
+    {publication.authors.split(/(Yue Shao)/g).map((author, index) =>
+      author === 'Yue Shao' ? (
+        <strong key={index} className="font-semibold text-[#2c3e50]">
+          {author}
+        </strong>
+      ) : (
+        author
+      )
+    )}
+  </p>
+)}
                     {publication.venue && <p className="mt-1 text-sm italic text-[#66717b]">{publication.venue}</p>}
                   </article>
                 ))}
