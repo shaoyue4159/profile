@@ -220,7 +220,7 @@
       "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
       "venue": "arXiv preprint (2026)",
       "link": "https://arxiv.org/abs/2606.24665"
-    },
+    }
   ],
   "otherPublications": [
     {
@@ -236,7 +236,7 @@
       "authors": "Yue Shao, Tian-Yang Sun, Meng-Lin Zhao, Xin Zhang",
       "venue": "Physical Review D 112, 063513 (2025)",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
-    }
+    },
     {
       "year": "2026",
       "title": "Prospects for probing dark matter particles and primordial black holes with the SKA using the 21 cm power spectrum at cosmic dawn",
@@ -251,7 +251,6 @@
       "venue": "Physical Review D 113, 043531 (2026)",
       "link": "https://doi.org/10.1103/449t-nytf"
     },
-    
     {
       "year": "2025",
       "title": "Nanohertz gravitational waves from a quasar-based supermassive black hole binary population model as dark sirens",
