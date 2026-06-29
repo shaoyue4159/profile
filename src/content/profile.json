@@ -1,6 +1,6 @@
 {
   "avatar": "/avatar.jpg",
-  "highlightImage": "",
+  "highlightImage": "nature-cover.png",
   "email": "shaoyue0304@163.com",
   "links": [
     {
@@ -81,7 +81,7 @@
     ],
     "students": {
       "title": "研究生指导",
-      "description": "指导硕士研究生开展 21 cm 宇宙学、引力波标准汽笛及多探针联合约束等方向的研究，欢迎对相关方向感兴趣的学生联系。"
+      "description": "暂无"
     },
     "highlight": {
       "eyebrow": "研究亮点",
@@ -164,9 +164,9 @@
       "url": "https://www.nature.com/articles/s41550-023-02025-6"
     },
     {
-      "label": "Nature Portfolio 微信报道",
-      "labelEn": "Nature Portfolio WeChat Feature",
-      "url": "https://mp.weixin.qq.com/s/pYZKIC0e3ZwIbLKhFo9Njw"
+      "label": "东北大学新闻网",
+      "labelEn": "Northeastern University News",
+      "url": "http://neunews.neu.edu.cn/xz/xsky/1.htm"
     },
     {
       "label": "中国科学院国家天文台",
@@ -209,6 +209,22 @@
     },
     {
       "year": "2025",
+      "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observations",
+      "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
+      "venue": "Communications Physics 8, 220 (2025)",
+      "link": "https://doi.org/10.1038/s42005-025-02139-5"
+    },
+    {
+      "year": "2026",
+      "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
+      "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
+      "venue": "arXiv preprint (2026)",
+      "link": "https://arxiv.org/abs/2606.24665"
+    },
+  ],
+  "otherPublications": [
+    {
+      "year": "2025",
       "title": "Prospects for measuring neutrino mass with 21-cm forest",
       "authors": "Yue Shao, Guo-Hong Du, Tian-Nuo Li, Xin Zhang",
       "venue": "Physics Letters B 862, 139342 (2025)",
@@ -221,8 +237,6 @@
       "venue": "Physical Review D 112, 063513 (2025)",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
     }
-  ],
-  "otherPublications": [
     {
       "year": "2026",
       "title": "Prospects for probing dark matter particles and primordial black holes with the SKA using the 21 cm power spectrum at cosmic dawn",
@@ -237,26 +251,13 @@
       "venue": "Physical Review D 113, 043531 (2026)",
       "link": "https://doi.org/10.1103/449t-nytf"
     },
-    {
-      "year": "2026",
-      "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
-      "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
-      "venue": "arXiv preprint (2026)",
-      "link": "https://arxiv.org/abs/2606.24665"
-    },
+    
     {
       "year": "2025",
       "title": "Nanohertz gravitational waves from a quasar-based supermassive black hole binary population model as dark sirens",
       "authors": "Si-Ren Xiao, Yue Shao, Ling-Feng Wang, Ji-Yu Song, Lu Feng, Jing-Fei Zhang, Xin Zhang",
       "venue": "Journal of Cosmology and Astroparticle Physics 2025(04), 060 (2025)",
       "link": "https://doi.org/10.1088/1475-7516/2025/04/060"
-    },
-    {
-      "year": "2025",
-      "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observations",
-      "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
-      "venue": "Communications Physics 8, 220 (2025)",
-      "link": "https://doi.org/10.1038/s42005-025-02139-5"
     },
     {
       "year": "2025",
