@@ -1,52 +1,205 @@
 {
-  "name": "邵悦",
-  "title": "辽宁师范大学 / 讲师 / 硕士生导师",
   "avatar": "/avatar.jpg",
+  "highlightImage": "",
   "email": "shaoyue0304@163.com",
-  "contact": "",
-  "location": "辽宁师范大学黄河路校区南院 理化楼A503",
-  "bio": [
-    "1996年生，辽宁阜新人。主要研究方向为宇宙黎明与再电离时期的21厘米信号，已在Nature Astronomy、Physical Review D等国际主流SCI期刊发表论文10余篇。曾获东北大学2023年博士研究生国家奖学金。研究成果被Nature Astronomy选为2023年9月封面文章，并在东北大学百年科技展中展出。参与FAST核心阵科学白皮书、国际SKA科学白皮书撰写。"
-  ],
-  "education": [
+  "links": [
     {
-      "period": "2015–2019",
-      "school": "东北大学",
-      "degree": "应用物理学专业 · 学士"
+      "type": "orcid",
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0001-6620-2826"
     },
     {
-      "period": "2019–2025",
-      "school": "东北大学",
-      "degree": "物理学专业 · 博士"
+      "type": "inspire",
+      "label": "INSPIRE",
+      "url": "https://inspirehep.net/authors/1999709?ui-citation-summary=true"
+    },
+    {
+      "type": "school",
+      "label": "辽宁师范大学个人主页",
+      "labelEn": "Liaoning Normal University Profile",
+      "url": "http://shaoyue.home.lnnu.edu.cn"
     }
   ],
-  "interests": [
+  "zh": {
+    "name": "邵悦",
+    "title": "辽宁师范大学 · 讲师 · 硕士生导师",
+    "location": "辽宁师范大学 · 理化楼 A503",
+    "bio": [
+      "1996 年生，辽宁阜新人。主要研究方向为宇宙黎明与再电离时期的 21 cm 信号，已在 Nature Astronomy、Physical Review D 等国际主流 SCI 期刊发表论文 10 余篇。",
+      "曾获东北大学 2023 年博士研究生国家奖学金。研究成果被 Nature Astronomy 选为 2023 年 9 月封面文章，并在东北大学百年科技展中展出。参与 FAST 核心阵科学白皮书、国际 SKA 科学白皮书撰写。"
+    ],
+    "education": [
+      {
+        "period": "2019–2025",
+        "school": "东北大学",
+        "degree": "物理学专业 · 博士"
+      },
+      {
+        "period": "2015–2019",
+        "school": "东北大学",
+        "degree": "应用物理学专业 · 学士"
+      }
+    ],
+    "employment": [
+      {
+        "period": "2025–至今",
+        "organization": "辽宁师范大学",
+        "role": "讲师 · 硕士生导师"
+      }
+    ],
+    "interests": [
+      {
+        "name": "21 cm 森林",
+        "description": "利用 SKA 等射电望远镜的 21 cm 森林观测，探测宇宙再电离、暗物质粒子、原初黑洞和中微子质量等。"
+      },
+      {
+        "name": "纳赫兹引力波",
+        "description": "利用脉冲星计时阵列探测的超大质量黑洞双星引力波信号作为标准汽笛，约束宇宙学参数。"
+      },
+      {
+        "name": "多探针联合",
+        "description": "研究引力波、21 cm 信号与快速射电暴等晚期宇宙探针的协同约束。"
+      }
+    ],
+    "projects": [
+      {
+        "period": "2026–至今",
+        "title": "辽宁省博士科研启动项目",
+        "role": "主持"
+      },
+      {
+        "period": "2026–至今",
+        "title": "辽宁师范大学博士科研启动项目",
+        "role": "主持"
+      }
+    ],
+    "courses": [
+      {
+        "name": "光学",
+        "description": "本科生课程"
+      }
+    ],
+    "students": {
+      "title": "研究生指导",
+      "description": "指导硕士研究生开展 21 cm 宇宙学、引力波标准汽笛及多探针联合约束等方向的研究，欢迎对相关方向感兴趣的学生联系。"
+    },
+    "highlight": {
+      "eyebrow": "研究亮点",
+      "title": "21 cm 森林：同时探测暗物质与宇宙加热历史",
+      "description": "该成果发表于 Nature Astronomy，并入选 2023 年 9 月期刊封面。相关工作利用高红移背景射电源的 21 cm 森林信号，为同时约束暗物质性质和早期宇宙热历史提供了新路径。"
+    }
+  },
+  "en": {
+    "name": "Yue Shao",
+    "title": "Lecturer · Master's Supervisor · Liaoning Normal University",
+    "location": "Liaoning Normal University · Science Building A503",
+    "bio": [
+      "Born in 1996 in Fuxin, Liaoning, I work on the 21 cm signal from cosmic dawn and the epoch of reionization. I have published more than ten papers in journals including Nature Astronomy and Physical Review D.",
+      "I received the 2023 National Scholarship for Doctoral Students at Northeastern University. My work was selected for the September 2023 cover of Nature Astronomy and featured in Northeastern University's Centennial Science and Technology Exhibition. I also contributed to the FAST Core Array and international SKA science white papers."
+    ],
+    "education": [
+      {
+        "period": "2019–2025",
+        "school": "Northeastern University",
+        "degree": "Ph.D. in Physics"
+      },
+      {
+        "period": "2015–2019",
+        "school": "Northeastern University",
+        "degree": "B.Sc. in Applied Physics"
+      }
+    ],
+    "employment": [
+      {
+        "period": "2025–Present",
+        "organization": "Liaoning Normal University",
+        "role": "Lecturer · Master's Supervisor"
+      }
+    ],
+    "interests": [
+      {
+        "name": "21 cm Forest",
+        "description": "Using 21 cm forest observations with radio telescopes such as the SKA to probe reionization, dark matter particles, primordial black holes, and neutrino masses."
+      },
+      {
+        "name": "Nanohertz Gravitational Waves",
+        "description": "Using gravitational waves from supermassive black hole binaries detected by pulsar timing arrays as standard sirens for cosmology."
+      },
+      {
+        "name": "Multi-probe Cosmology",
+        "description": "Combining gravitational waves, 21 cm signals, and fast radio bursts to constrain late-universe cosmology."
+      }
+    ],
+    "projects": [
+      {
+        "period": "2026–Present",
+        "title": "Liaoning Provincial Doctoral Research Start-up Project",
+        "role": "Principal Investigator"
+      },
+      {
+        "period": "2026–Present",
+        "title": "Liaoning Normal University Doctoral Research Start-up Project",
+        "role": "Principal Investigator"
+      }
+    ],
+    "courses": [
+      {
+        "name": "Optics",
+        "description": "Undergraduate course"
+      }
+    ],
+    "students": {
+      "title": "Graduate Supervision",
+      "description": "I supervise master's students working on 21 cm cosmology, gravitational-wave standard sirens, and joint cosmological probes. Students interested in these topics are welcome to get in touch."
+    },
+    "highlight": {
+      "eyebrow": "Research Highlight",
+      "title": "The 21 cm forest as a joint probe of dark matter and cosmic heating",
+      "description": "Published in Nature Astronomy and selected for the September 2023 journal cover, this work uses the 21 cm forest toward high-redshift radio sources to jointly constrain dark matter properties and the thermal history of the early Universe."
+    }
+  },
+  "highlightLinks": [
     {
-      "name": "21厘米森林",
-      "description": "利用SKA等射电望远镜的21厘米森林观测，探测宇宙再电离、暗物质粒子、原初黑洞、中微子质量等。"
+      "label": "Research Briefing",
+      "url": "https://www.nature.com/articles/s41550-023-02025-6"
     },
     {
-      "name": "纳赫兹引力波",
-      "description": "利用脉冲星计时阵列探测到的超大质量黑洞双星引力波信号作为标准汽笛，约束宇宙学参数等。"
+      "label": "Nature Portfolio 微信报道",
+      "labelEn": "Nature Portfolio WeChat Feature",
+      "url": "https://mp.weixin.qq.com/s/pYZKIC0e3ZwIbLKhFo9Njw"
     },
     {
-      "name": "多探针联合",
-      "description": "引力波+21厘米+快速射电暴等多种晚期宇宙探针的协同约束。"
+      "label": "中国科学院国家天文台",
+      "labelEn": "National Astronomical Observatories, CAS",
+      "url": "http://www.nao.cas.cn/news/gd/202307/t20230707_6806902.html"
+    },
+    {
+      "label": "央视新闻",
+      "labelEn": "CCTV News",
+      "url": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=5916814541768815499&toc_style_id=feeds_default&track_id=E59C770D-3D5D-49C1-B960-62B84B96D411_710392886757&share_to=wechat"
+    },
+    {
+      "label": "光明网",
+      "labelEn": "Guangming Online",
+      "url": "https://share.gmw.cn/tech/2023-07/07/content_36681251.htm"
+    },
+    {
+      "label": "人民网",
+      "labelEn": "People's Daily Online",
+      "url": "http://finance.people.com.cn/n1/2023/0707/c1004-40030371.html"
+    },
+    {
+      "label": "科技日报",
+      "labelEn": "Science and Technology Daily",
+      "url": "https://app.kjrb.com.cn/app/template/displayTemplate/news/newsDetail/7/130289.html?isShare=true&xyt=1782738762072"
+    },
+    {
+      "label": "中国新闻网",
+      "labelEn": "China News Service",
+      "url": "https://m.chinanews.com/wap/detail/chs/zw/10038550.shtml"
     }
   ],
-  "projects": [
-    {
-      "year": "2026",
-      "title": "辽宁省博士科研启动",
-      "description": "主持"
-    },
-    {
-      "year": "2026",
-      "title": "辽宁师范大学博士科研启动",
-      "description": "主持"
-    }
-  ],
-  "publications": [
+  "representativePublications": [
     {
       "year": "2023",
       "title": "The 21-cm forest as a simultaneous probe of dark matter and cosmic heating history",
@@ -67,35 +220,9 @@
       "authors": "Yue Shao, Tian-Yang Sun, Meng-Lin Zhao, Xin Zhang",
       "venue": "Physical Review D 112, 063513 (2025)",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
-    },
-    {
-      "year": "2023",
-      "title": "A path to precision cosmology: synergy between four promising late-universe cosmological probes",
-      "authors": "Peng-Ju Wu, Yue Shao, Shang-Jie Jin, Xin Zhang",
-      "venue": "Journal of Cosmology and Astroparticle Physics 2023(06), 052 (2023)",
-      "link": "https://doi.org/10.1088/1475-7516/2023/06/052"
-    },
-    {
-      "year": "2025",
-      "title": "Nanohertz gravitational waves from a quasar-based supermassive black hole binary population model as dark sirens",
-      "authors": "Si-Ren Xiao, Yue Shao, Ling-Feng Wang, Ji-Yu Song, Lu Feng, Jing-Fei Zhang, Xin Zhang",
-      "venue": "Journal of Cosmology and Astroparticle Physics 2025(04), 060 (2025)",
-      "link": "https://doi.org/10.1088/1475-7516/2025/04/060"
-    },
-    {
-      "year": "2025",
-      "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observationss",
-      "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
-      "venue": "Communications Physics 8, 220 (2025)",
-      "link": "https://doi.org/10.1038/s42005-025-02139-5"
-    },
-    {
-      "year": "2025",
-      "title": "Ultra-low-frequency gravitational waves from individual supermassive black hole binaries as standard sirens",
-      "authors": "Ling-Feng Wang, Yue Shao, Si-Ren Xiao, Jing-Fei Zhang, Xin Zhang",
-      "venue": "Journal of Cosmology and Astroparticle Physics 2025(05), 095 (2025)",
-      "link": "https://doi.org/10.1088/1475-7516/2025/05/095"
-    },
+    }
+  ],
+  "otherPublications": [
     {
       "year": "2026",
       "title": "Prospects for probing dark matter particles and primordial black holes with the SKA using the 21 cm power spectrum at cosmic dawn",
@@ -111,11 +238,32 @@
       "link": "https://doi.org/10.1103/449t-nytf"
     },
     {
-      "year": "2023",
-      "title": "Joint constraints on cosmological parameters using future multi-band gravitational wave standard siren observations",
-      "authors": "Shang-Jie Jin, Shuang-Shuang Xing, Yue Shao, Jing-Fei Zhang, Xin Zhang",
-      "venue": "Chinese Physics C 47, 065104 (2023)",
-      "link": "https://doi.org/10.1088/1674-1137/acc8be"
+      "year": "2026",
+      "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
+      "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
+      "venue": "arXiv preprint (2026)",
+      "link": "https://arxiv.org/abs/2606.24665"
+    },
+    {
+      "year": "2025",
+      "title": "Nanohertz gravitational waves from a quasar-based supermassive black hole binary population model as dark sirens",
+      "authors": "Si-Ren Xiao, Yue Shao, Ling-Feng Wang, Ji-Yu Song, Lu Feng, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2025(04), 060 (2025)",
+      "link": "https://doi.org/10.1088/1475-7516/2025/04/060"
+    },
+    {
+      "year": "2025",
+      "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observations",
+      "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
+      "venue": "Communications Physics 8, 220 (2025)",
+      "link": "https://doi.org/10.1038/s42005-025-02139-5"
+    },
+    {
+      "year": "2025",
+      "title": "Ultra-low-frequency gravitational waves from individual supermassive black hole binaries as standard sirens",
+      "authors": "Ling-Feng Wang, Yue Shao, Si-Ren Xiao, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2025(05), 095 (2025)",
+      "link": "https://doi.org/10.1088/1475-7516/2025/05/095"
     },
     {
       "year": "2025",
@@ -135,13 +283,22 @@
       "year": "2025",
       "title": "Two-Dimensional Pulsar Distance Inference from Nanohertz Gravitational Waves",
       "authors": "Si-Ren Xiao, Ji-Yu Song, Yue Shao, Ling-Feng Wang, Jing-Fei Zhang, Xin Zhang",
+      "venue": "arXiv preprint (2025)",
       "link": "https://arxiv.org/abs/2512.10729"
     },
     {
-      "year": "2025",
-      "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
-      "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
-      "link": "https://arxiv.org/abs/2606.24665"
+      "year": "2023",
+      "title": "A path to precision cosmology: synergy between four promising late-universe cosmological probes",
+      "authors": "Peng-Ju Wu, Yue Shao, Shang-Jie Jin, Xin Zhang",
+      "venue": "Journal of Cosmology and Astroparticle Physics 2023(06), 052 (2023)",
+      "link": "https://doi.org/10.1088/1475-7516/2023/06/052"
+    },
+    {
+      "year": "2023",
+      "title": "Joint constraints on cosmological parameters using future multi-band gravitational wave standard siren observations",
+      "authors": "Shang-Jie Jin, Shuang-Shuang Xing, Yue Shao, Jing-Fei Zhang, Xin Zhang",
+      "venue": "Chinese Physics C 47, 065104 (2023)",
+      "link": "https://doi.org/10.1088/1674-1137/acc8be"
     }
   ]
 }

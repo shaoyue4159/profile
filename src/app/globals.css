@@ -136,9 +136,10 @@ body {
   @apply font-sans;
   min-width: 320px;
   background:
-    radial-gradient(circle at 12% 2%, rgb(212 165 116 / 10%), transparent 28rem),
-    #f8f6f2;
-  color: #202a33;
+    radial-gradient(circle at 10% 0%, rgb(23 107 91 / 10%), transparent 30rem),
+    radial-gradient(circle at 92% 16%, rgb(16 47 74 / 8%), transparent 34rem),
+    #f4f7f7;
+  color: #263b47;
   text-rendering: optimizeLegibility;
 }
 
@@ -147,12 +148,12 @@ html {
 }
 
 ::selection {
-  background: rgb(212 165 116 / 28%);
-  color: #1f2d3a;
+  background: rgb(23 107 91 / 24%);
+  color: #102f4a;
 }
 
 :focus-visible {
-  outline: 2px solid #b47b43;
+  outline: 2px solid #176b5b;
   outline-offset: 3px;
 }
 
