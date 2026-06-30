@@ -205,7 +205,7 @@
       "title": "The 21-cm forest as a simultaneous probe of dark matter and cosmic heating history",
       "authors": "Yue Shao, Yidong Xu, Yougang Wang, Wenxiu Yang, Ran Li, Xin Zhang, Xuelei Chen",
       "venue": "Nature Astronomy 7, 1116–1126 (2023)",
-      "summaryZh": "提出利用 21 cm 森林同时区分暗物质效应与宇宙加热历史的统计方法。",
+      "summaryZh": "提出利用 21 cm 森林同时区分暗物质效应与宇宙加热历史的统计方法。（Nature 子刊）",
       "summaryEn": "A statistical framework using the 21 cm forest to distinguish dark-matter effects from the cosmic heating history.",
       "link": "https://doi.org/10.1038/s41550-023-02024-7"
     },
@@ -214,7 +214,7 @@
       "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observations",
       "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
       "venue": "Communications Physics 8, 220 (2025)",
-      "summaryZh": "利用深度学习与无似然推断方法，从 21 cm 森林观测中提取宇宙学和天体物理参数。",
+      "summaryZh": "利用深度学习与无似然推断方法，从 21 cm 森林观测中提取宇宙学和天体物理参数。（Nature 子刊）",
       "summaryEn": "A deep-learning and likelihood-free framework for inferring cosmological and astrophysical parameters from 21 cm forest observations.",
       "link": "https://doi.org/10.1038/s42005-025-02139-5"
     },
@@ -223,7 +223,7 @@
       "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
       "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
       "venue": "arXiv preprint (2026)",
-      "summaryZh": "系统讨论利用 SKA 结合 21 cm 森林与高红移射电源探索宇宙黎明的科学前景。",
+      "summaryZh": "系统讨论利用 SKA 结合 21 cm 森林与高红移射电源探索宇宙黎明的科学前景。（国际 SKA 白皮书 21 cm 森林章节）",
       "summaryEn": "A study of the scientific prospects for exploring cosmic dawn with the SKA, the 21 cm forest, and high-redshift radio sources.",
       "link": "https://arxiv.org/abs/2606.24665"
     }
