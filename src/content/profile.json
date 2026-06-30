@@ -214,6 +214,8 @@
       "title": "Deep learning-driven likelihood-free parameter inference for 21-cm forest observations",
       "authors": "Tian-Yang Sun, Yue Shao, Yichao Li, Yidong Xu, He Wang, Xin Zhang",
       "venue": "Communications Physics 8, 220 (2025)",
+      "summaryZh": "利用深度学习与无似然推断方法，从 21 cm 森林观测中提取宇宙学和天体物理参数。",
+      "summaryEn": "A deep-learning and likelihood-free framework for inferring cosmological and astrophysical parameters from 21 cm forest observations.",
       "link": "https://doi.org/10.1038/s42005-025-02139-5"
     },
     {
@@ -221,6 +223,8 @@
       "title": "Exploring the Cosmic Dawn through the 21 cm Forest and High-redshift Radio Sources with the SKA",
       "authors": "Junsong Cang, Benedetta Ciardi, Barun Maity, Atsushi J. Nishizawa, Qi Niu, Yue Shao, Abinash Kumar Shaw, Hayato Shimabukuro, Tomáš Šoltinský, Tian-Yang Sun, Tsutomu T. Takeuchi, Yidong Xu, Kohji Yoshikawa, Bin Yue, Xin Zhang",
       "venue": "arXiv preprint (2026)",
+      "summaryZh": "系统讨论利用 SKA 结合 21 cm 森林与高红移射电源探索宇宙黎明的科学前景。",
+      "summaryEn": "A study of the scientific prospects for exploring cosmic dawn with the SKA, the 21 cm forest, and high-redshift radio sources.",
       "link": "https://arxiv.org/abs/2606.24665"
     }
   ],
@@ -230,8 +234,6 @@
       "title": "Prospects for measuring neutrino mass with 21-cm forest",
       "authors": "Yue Shao, Guo-Hong Du, Tian-Nuo Li, Xin Zhang",
       "venue": "Physics Letters B 862, 139342 (2025)",
-      "summaryZh": "评估未来 21 cm 森林观测对中微子质量的测量能力。",
-      "summaryEn": "An assessment of the potential of future 21 cm forest observations to measure the neutrino mass.",
       "link": "https://doi.org/10.1016/j.physletb.2025.139342"
     },
     {
@@ -239,8 +241,6 @@
       "title": "Analytical modeling of the one-dimensional power spectrum of 21-cm forest based on a halo model method",
       "authors": "Yue Shao, Tian-Yang Sun, Meng-Lin Zhao, Xin Zhang",
       "venue": "Physical Review D 112, 063513 (2025)",
-      "summaryZh": "基于晕模型建立 21 cm 森林一维功率谱的解析模型。",
-      "summaryEn": "An analytical halo-model description of the one-dimensional power spectrum of the 21 cm forest.",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
     },
     {
