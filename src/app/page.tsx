@@ -189,28 +189,17 @@ export default function Home() {
         </Section>
 
         <section className="overflow-hidden rounded-2xl border border-[#244b65] bg-[#102f4a] text-white shadow-[0_22px_70px_rgba(16,47,74,0.16)]">
-          <div className="grid md:grid-cols-[0.72fr_1.28fr]">
-            <div className="relative min-h-64 overflow-hidden border-b border-white/15 md:min-h-full md:border-b-0 md:border-r">
-              {profile.highlightImage ? (
-                <img
-                  src={assetPath(profile.highlightImage)}
-                  alt={text.journalCover}
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
-              ) : (
-                <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_30%_22%,#2d7590_0%,#173f60_34%,#071d35_78%)] p-8 text-center">
-                  <Orbit className="h-20 w-20 text-[#7dc2b3]" strokeWidth={1.2} />
-                  <p className="mt-5 text-xs font-bold tracking-[0.28em] text-[#a8d7cd]">{text.coverHint}</p>
-                  <p className="mt-2 font-serif text-2xl font-bold">{text.journalCover}</p>
-                </div>
-              )}
-            </div>
+          <div className="grid md:grid-cols-[1.35fr_0.65fr]">
             <div className="p-6 sm:p-9">
-              <div className="flex items-center gap-2 text-[#91d2c4]">
-                <Sparkles className="h-5 w-5" />
-                <p className="text-sm font-bold tracking-[0.16em]">{content.highlight.eyebrow}</p>
+              <div className="mb-7 flex items-center gap-3 border-b border-white/15 pb-5">
+                <span className="rounded-lg bg-[#7dc2b3] p-2 text-[#102f4a]">
+                  <Sparkles className="h-5 w-5" />
+                </span>
+                <h2 className="font-serif text-3xl font-bold text-white sm:text-4xl">
+                  {content.highlight.eyebrow}
+                </h2>
               </div>
-              <h2 className="mt-4 font-serif text-3xl font-bold leading-tight sm:text-4xl">{content.highlight.title}</h2>
+              <h3 className="font-serif text-2xl font-bold leading-tight sm:text-3xl">{content.highlight.title}</h3>
               <p className="mt-5 leading-8 text-[#dce8ec]">{content.highlight.description}</p>
               <div className="mt-7">
                 <p className="mb-3 flex items-center gap-2 text-sm font-bold text-[#a8d7cd]">
@@ -228,6 +217,21 @@ export default function Home() {
                   ))}
                 </div>
               </div>
+            </div>
+            <div className="relative min-h-72 overflow-hidden border-t border-white/15 md:min-h-full md:border-l md:border-t-0">
+              {profile.highlightImage ? (
+                <img
+                  src={assetPath(profile.highlightImage)}
+                  alt={text.journalCover}
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              ) : (
+                <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_30%_22%,#2d7590_0%,#173f60_34%,#071d35_78%)] p-8 text-center">
+                  <Orbit className="h-20 w-20 text-[#7dc2b3]" strokeWidth={1.2} />
+                  <p className="mt-5 text-xs font-bold tracking-[0.28em] text-[#a8d7cd]">{text.coverHint}</p>
+                  <p className="mt-2 font-serif text-2xl font-bold">{text.journalCover}</p>
+                </div>
+              )}
             </div>
           </div>
         </section>
@@ -284,9 +288,20 @@ export default function Home() {
         </Section>
 
         <Section id="publications" title={text.publications} icon={<FileText />} tinted>
-          <PublicationGroup title={text.representative} publications={profile.representativePublications} viewLabel={text.view} featured />
+          <PublicationGroup
+            title={text.representative}
+            publications={profile.representativePublications}
+            viewLabel={text.view}
+            language={language}
+            featured
+          />
           <div className="my-10 h-px bg-[#cbd8da]" />
-          <PublicationGroup title={text.other} publications={profile.otherPublications} viewLabel={text.view} />
+          <PublicationGroup
+            title={text.other}
+            publications={profile.otherPublications}
+            viewLabel={text.view}
+            language={language}
+          />
         </Section>
       </main>
 
@@ -416,11 +431,13 @@ function PublicationGroup({
   title,
   publications,
   viewLabel,
+  language,
   featured = false,
 }: {
   title: string;
   publications: readonly Publication[];
   viewLabel: string;
+  language: Language;
   featured?: boolean;
 }) {
   return (
@@ -458,11 +475,22 @@ function PublicationGroup({
             <p className="mt-3 text-sm leading-6 text-[#61747e]">
               <HighlightAuthor authors={publication.authors} />
             </p>
+            {publicationSummary(publication, language) && (
+              <p className="mt-4 border-t border-[#dce5e5] pt-4 text-sm leading-7 text-[#405965]">
+                {publicationSummary(publication, language)}
+              </p>
+            )}
           </article>
         ))}
       </div>
     </div>
   );
+}
+
+function publicationSummary(publication: Publication, language: Language) {
+  if (language === 'zh' && 'summaryZh' in publication) return publication.summaryZh;
+  if (language === 'en' && 'summaryEn' in publication) return publication.summaryEn;
+  return '';
 }
 
 function HighlightAuthor({ authors }: { authors: string }) {

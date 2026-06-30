@@ -205,6 +205,8 @@
       "title": "The 21-cm forest as a simultaneous probe of dark matter and cosmic heating history",
       "authors": "Yue Shao, Yidong Xu, Yougang Wang, Wenxiu Yang, Ran Li, Xin Zhang, Xuelei Chen",
       "venue": "Nature Astronomy 7, 1116–1126 (2023)",
+      "summaryZh": "提出利用 21 cm 森林同时区分暗物质效应与宇宙加热历史的统计方法。",
+      "summaryEn": "A statistical framework using the 21 cm forest to distinguish dark-matter effects from the cosmic heating history.",
       "link": "https://doi.org/10.1038/s41550-023-02024-7"
     },
     {
@@ -228,6 +230,8 @@
       "title": "Prospects for measuring neutrino mass with 21-cm forest",
       "authors": "Yue Shao, Guo-Hong Du, Tian-Nuo Li, Xin Zhang",
       "venue": "Physics Letters B 862, 139342 (2025)",
+      "summaryZh": "评估未来 21 cm 森林观测对中微子质量的测量能力。",
+      "summaryEn": "An assessment of the potential of future 21 cm forest observations to measure the neutrino mass.",
       "link": "https://doi.org/10.1016/j.physletb.2025.139342"
     },
     {
@@ -235,6 +239,8 @@
       "title": "Analytical modeling of the one-dimensional power spectrum of 21-cm forest based on a halo model method",
       "authors": "Yue Shao, Tian-Yang Sun, Meng-Lin Zhao, Xin Zhang",
       "venue": "Physical Review D 112, 063513 (2025)",
+      "summaryZh": "基于晕模型建立 21 cm 森林一维功率谱的解析模型。",
+      "summaryEn": "An analytical halo-model description of the one-dimensional power spectrum of the 21 cm forest.",
       "link": "https://doi.org/10.1103/vpd1-1kyj"
     },
     {
