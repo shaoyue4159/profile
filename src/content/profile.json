@@ -81,12 +81,12 @@
     ],
     "students": {
       "title": "研究生指导",
-      "description": "暂无"
+      "description": "招收硕士生"
     },
     "highlight": {
       "eyebrow": "研究亮点",
       "title": "21 cm 森林：同时探测暗物质与宇宙加热历史",
-      "description": "该成果发表于 Nature Astronomy，并入选 2023 年 9 月期刊封面。相关工作利用高红移背景射电源的 21 cm 森林信号，为同时约束暗物质性质和早期宇宙热历史提供了新路径。"
+      "description": "该成果发表于 Nature Astronomy，并被选为 2023 年 9 月期刊封面。相关工作利用高红移背景射电源的 21 cm 森林信号，为同时约束暗物质性质和早期宇宙热历史提供了新路径。"
     }
   },
   "en": {
@@ -150,7 +150,7 @@
     ],
     "students": {
       "title": "Graduate Supervision",
-      "description": "I supervise master's students working on 21 cm cosmology, gravitational-wave standard sirens, and joint cosmological probes. Students interested in these topics are welcome to get in touch."
+      "description": "Recruiting Master's students"
     },
     "highlight": {
       "eyebrow": "Research Highlight",
