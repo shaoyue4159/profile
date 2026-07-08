@@ -158,11 +158,7 @@
       "description": "Published in Nature Astronomy and selected for the September 2023 journal cover, this work uses the 21 cm forest toward high-redshift radio sources to jointly constrain dark matter properties and the thermal history of the early Universe."
     }
   },
-  "highlightLinks": [
-    {
-      "label": "Research Briefing",
-      "url": "https://www.nature.com/articles/s41550-023-02025-6"
-    },
+  "highlightMediaLinks": [
     {
       "label": "东北大学新闻网",
       "labelEn": "Northeastern University News",
@@ -197,6 +193,27 @@
       "label": "中国新闻网",
       "labelEn": "China News Service",
       "url": "https://m.chinanews.com/wap/detail/chs/zw/10038550.shtml"
+    }
+  ],
+  "highlightReadingLinks": [
+    {
+      "label": "Research Briefing",
+      "url": "https://www.nature.com/articles/s41550-023-02025-6"
+    },
+    {
+      "label": "《光明日报》：“刺探”宇宙最初 10 亿年",
+      "labelEn": "Guangming Daily: Probing the first billion years of the Universe",
+      "url": "https://app.gmdaily.cn/as/opened/n/ed0c078a3a5c4c8ab0dea608891e7b42"
+    },
+    {
+      "label": "《科学通报》悦读科学：同时揭秘暗物质与第一代星系性质的 21 cm 森林探针",
+      "labelEn": "Chinese Science Bulletin: A 21 cm forest probe of dark matter and first galaxies",
+      "url": "https://www.sciengine.com/CSB/doi/10.1360/TB-2023-0750"
+    },
+    {
+      "label": "《现代物理知识》：宇宙黎明的黑暗森林同时揭秘暗物质和宇宙第一代星系",
+      "labelEn": "Modern Physics: The dark forest of cosmic dawn",
+      "url": "https://mp.weixin.qq.com/s/_l8Ll4V9U31QUepqnsSzEQ"
     }
   ],
   "representativePublications": [

@@ -49,7 +49,8 @@ const ui = {
     publications: '论文成果',
     representative: '代表性论文',
     other: '其他论文',
-    coverage: '媒体报道与延伸阅读',
+    mediaCoverage: '媒体报道',
+    furtherReading: '延伸阅读',
     view: '查看全文',
     journalCover: '期刊封面',
     coverHint: 'JOURNAL COVER',
@@ -76,7 +77,8 @@ const ui = {
     publications: 'Publications',
     representative: 'Selected Publications',
     other: 'Other Publications',
-    coverage: 'Media Coverage & Further Reading',
+    mediaCoverage: 'Media Coverage',
+    furtherReading: 'Further Reading',
     view: 'View paper',
     journalCover: 'Journal Cover',
     coverHint: 'JOURNAL COVER',
@@ -201,29 +203,27 @@ export default function Home() {
               </div>
               <h3 className="font-serif text-2xl font-bold leading-tight sm:text-3xl">{content.highlight.title}</h3>
               <p className="mt-5 leading-8 text-[#dce8ec]">{content.highlight.description}</p>
-              <div className="mt-7">
-                <p className="mb-3 flex items-center gap-2 text-sm font-bold text-[#a8d7cd]">
-                  <Newspaper className="h-4 w-4" />
-                  {text.coverage}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {profile.highlightLinks.map((link) => (
-                    <ExternalButton
-                      key={link.url}
-                      href={link.url}
-                      label={localizedLinkLabel(link, language)}
-                      inverse
-                    />
-                  ))}
-                </div>
+              <div className="mt-7 grid gap-5 lg:grid-cols-2">
+                <HighlightLinkGroup
+                  title={text.mediaCoverage}
+                  links={profile.highlightMediaLinks}
+                  language={language}
+                  icon={<Newspaper className="h-4 w-4" />}
+                />
+                <HighlightLinkGroup
+                  title={text.furtherReading}
+                  links={profile.highlightReadingLinks}
+                  language={language}
+                  icon={<BookOpen className="h-4 w-4" />}
+                />
               </div>
             </div>
-            <div className="relative min-h-72 overflow-hidden border-t border-white/15 md:min-h-full md:border-l md:border-t-0">
+            <div className="relative min-h-72 overflow-hidden border-t border-white/15 bg-[#071d35] p-4 md:min-h-full md:border-l md:border-t-0">
               {profile.highlightImage ? (
                 <img
                   src={assetPath(profile.highlightImage)}
                   alt={text.journalCover}
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="h-full w-full object-contain"
                 />
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden bg-[radial-gradient(circle_at_30%_22%,#2d7590_0%,#173f60_34%,#071d35_78%)] p-8 text-center">
@@ -324,6 +324,37 @@ function localizedLinkLabel(
   language: Language,
 ) {
   return language === 'en' && link.labelEn ? link.labelEn : link.label;
+}
+
+function HighlightLinkGroup({
+  title,
+  links,
+  language,
+  icon,
+}: {
+  title: string;
+  links: Array<{ label: string; labelEn?: string; url: string }>;
+  language: Language;
+  icon: React.ReactElement;
+}) {
+  return (
+    <div>
+      <p className="mb-3 flex items-center gap-2 text-sm font-bold text-[#a8d7cd]">
+        {icon}
+        {title}
+      </p>
+      <div className="flex flex-wrap gap-2">
+        {links.map((link) => (
+          <ExternalButton
+            key={link.url}
+            href={link.url}
+            label={localizedLinkLabel(link, language)}
+            inverse
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 function Section({
